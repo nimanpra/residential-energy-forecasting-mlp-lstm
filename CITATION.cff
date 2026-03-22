@@ -4,10 +4,6 @@ message: "If you use this software or data, please cite the repository and the p
 authors:
   - family-names: Ukwatta Hewage
     given-names: Prasad Nimantha Madusanka
-  - family-names: Nguyen
-    given-names: Chau Anh
-  - family-names: Khan
-    given-names: Samira
   - family-names: Wu
     given-names: Hao
 repository-code: "https://github.com/nimanpra/residential-energy-forecasting-mlp-lstm"

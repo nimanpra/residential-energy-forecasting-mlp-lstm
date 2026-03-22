@@ -2,7 +2,7 @@
 
 Code and data for the study **Beyond Weather Correlation: A Comparative Study of Static and Temporal Neural Architectures for Fine-Grained Residential Energy Consumption Forecasting in Melbourne, Australia**.
 
-**Authors:** Prasad Nimantha Madusanka Ukwatta Hewage, Chau Anh Nguyen, Samira Khan, Hao Wu — School of Computing and Information Technology, Victoria University, Sydney, Australia.
+**Authors:** Prasad Nimantha Madusanka Ukwatta Hewage, Hao Wu — School of Computing and Information Technology, Victoria University, Sydney, Australia.
 
 ## Contents
 

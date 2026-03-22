@@ -7,5 +7,9 @@ authors:
   - family-names: Wu
     given-names: Hao
 repository-code: "https://github.com/nimanpra/residential-energy-forecasting-mlp-lstm"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19158396
+    description: Zenodo archived preprint
 license: MIT
 date-released: "2026-03-22"

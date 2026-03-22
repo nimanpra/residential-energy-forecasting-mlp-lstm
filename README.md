@@ -4,6 +4,8 @@ Code and data for the study **Beyond Weather Correlation: A Comparative Study of
 
 **Authors:** Prasad Nimantha Madusanka Ukwatta Hewage, Hao Wu — School of Computing and Information Technology, Victoria University, Sydney, Australia.
 
+**Preprint (Zenodo):** [https://doi.org/10.5281/zenodo.19158396](https://doi.org/10.5281/zenodo.19158396)
+
 ## Contents
 
 | Path | Description |
@@ -43,7 +45,7 @@ python generate_figures.py
 
 ## Citation
 
-If you use this repository or the associated paper, cite the PDF author list and year when published, or this repository URL until a DOI is assigned.
+Zenodo DOI: `10.5281/zenodo.19158396` — [https://doi.org/10.5281/zenodo.19158396](https://doi.org/10.5281/zenodo.19158396). If you use the code or data, cite that DOI and/or this repository URL.
 
 ## License
 

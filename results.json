@@ -1,0 +1,103 @@
+{
+  "dataset": {
+    "house3_records": 117236,
+    "house4_records": 118818,
+    "date_range": "2023-03-01 to 2024-04-17",
+    "bom_files": 14,
+    "weather_features": [
+      "Maximum temperature (\u00b0C)",
+      "Rainfall (mm)",
+      "9am Temperature (\u00b0C)",
+      "3pm Temperature (\u00b0C)",
+      "9am relative humidity (%)",
+      "3pm relative humidity (%)"
+    ],
+    "seq_len": 24,
+    "train_fraction": 0.8,
+    "test_fraction": 0.2
+  },
+  "house3": {
+    "train_records": 93788,
+    "test_records": 23448,
+    "lstm_train_windows": 93769,
+    "lstm_test_windows": 23443,
+    "MLP_train": {
+      "rmse_w": 752.6,
+      "mae_w": 524.72,
+      "r2": 0.02
+    },
+    "MLP_test": {
+      "rmse_w": 971.14,
+      "mae_w": 661.39,
+      "r2": -0.055
+    },
+    "LSTM_test": {
+      "rmse_s": 0.0346,
+      "mae_s": 0.0216,
+      "r2": 0.883
+    },
+    "persistence_naive": {
+      "rmse": 0.041640019215584294,
+      "mae": 0.017221475020051003,
+      "r2": 0.8784834146499634
+    },
+    "persistence_seasonal": {
+      "rmse": 0.14167510129091282,
+      "mae": 0.09106811136007309,
+      "r2": -0.4006061553955078
+    }
+  },
+  "house4": {
+    "train_records": 95054,
+    "test_records": 23764,
+    "lstm_train_windows": 95035,
+    "lstm_test_windows": 23759,
+    "MLP_train": {
+      "rmse_w": 830.7,
+      "mae_w": 492.71,
+      "r2": 0.304
+    },
+    "MLP_test": {
+      "rmse_w": 673.59,
+      "mae_w": 415.51,
+      "r2": 0.41
+    },
+    "LSTM_test": {
+      "rmse_s": 0.0137,
+      "mae_s": 0.0102,
+      "r2": 0.865
+    },
+    "persistence_naive": {
+      "rmse": 0.02098263680783766,
+      "mae": 0.009585989639163017,
+      "r2": 0.8506191968917847
+    },
+    "persistence_seasonal": {
+      "rmse": 0.04783106871072978,
+      "mae": 0.02866501919925213,
+      "r2": 0.21317732334136963
+    }
+  },
+  "model_params": {
+    "MLP": {
+      "hidden_layers": [
+        64,
+        32
+      ],
+      "activation": "relu",
+      "dropout": [
+        0.2,
+        0.1
+      ],
+      "params": 2625
+    },
+    "LSTM": {
+      "units": 50,
+      "activation": "relu",
+      "dropout": 0.2,
+      "params": 10451,
+      "seq_len": 24
+    }
+  },
+  "has_tensorflow": true
+}

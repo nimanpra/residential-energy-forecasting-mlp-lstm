@@ -1,0 +1,8 @@
+# Python 3.9+ recommended. Reproduce experiments with:
+#   pip install -r requirements.txt
+numpy>=1.22
+pandas>=1.4
+matplotlib>=3.5
+seaborn>=0.12
+scikit-learn>=1.1
+tensorflow>=2.10

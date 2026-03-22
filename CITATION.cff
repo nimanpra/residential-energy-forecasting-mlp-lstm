@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Beyond Weather Correlation: Fine-Grained Residential Energy Consumption Forecasting (Melbourne)"
+message: "If you use this software or data, please cite the repository and the paper."
+authors:
+  - family-names: Ukwatta Hewage
+    given-names: Prasad Nimantha Madusanka
+  - family-names: Nguyen
+    given-names: Chau Anh
+  - family-names: Khan
+    given-names: Samira
+  - family-names: Wu
+    given-names: Hao
+repository-code: "https://github.com/nimanpra/residential-energy-forecasting-mlp-lstm"
+license: MIT
+date-released: "2026-03-22"
